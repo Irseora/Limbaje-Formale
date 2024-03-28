@@ -82,7 +82,7 @@ namespace DeterministicFiniteAutomata
             return true;
         }
 
-        /// <summary>Parse a word through the automata, optionally show steps</summary>
+        /// <summary>Parse a word through the automata, optionally showing steps</summary>
         /// <param name="word">Word to parse</param>
         /// <param name="outputSteps">Show or hide steps taken</param>
         public void Parse(string word, bool outputSteps = false)
